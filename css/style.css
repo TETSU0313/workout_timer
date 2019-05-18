@@ -1,0 +1,88 @@
+body {
+  background-image: url("../media/timer_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 15%; */
+  font-size: 15px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px black solid;
+  background-color: #f44336;
+  width: 28%;
+  border-radius: 25%;
+  top: 50%;
+  left: 50%;
+  margin-top: 5%;
+  padding: 15px;
+  opacity: .8;
+  color: white;
+  font-family: verdana;
+}
+
+#startButton {
+  background-color: white;
+  border: 2px solid #4CAF50;
+  color: black;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#resetButton {
+  background-color: white;
+  border: 2px solid #008CBA;
+  color: black;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button {
+  transition-duration: 0.4s;
+  border-radius: 10%;
+}
+
+#startButton:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#resetButton:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+#outputField, #roundsOutput {
+  width: 115px;
+  height: 25px;
+  background-color: #CCC;
+  text-align: center;
+  background-color: black;
+}
+
+#timeInput, #roundsInput {
+  width: 115px;
+  height: 25px;
+  background-color: #CCC;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+p {
+  margin: 2%;
+}
